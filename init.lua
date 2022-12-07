@@ -10,6 +10,8 @@ function CycleWindows()
     local app = hs.application.frontmostApplication()
     local win = hs.window.focusedWindow()
     local all = app:allWindows()
+    if app == nil or win == nil or all == nil then return end
+
     local firstWindow = all[1]
     print(firstWindow:id())
     local nextWindow = nil

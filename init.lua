@@ -11,17 +11,8 @@ function CycleWindows()
     local win = hs.window.focusedWindow()
     local all = app:allWindows()
     if app == nil or win == nil or all == nil then return end
-
-    local firstWindow = all[1]
-    print(firstWindow:id())
-    local nextWindow = nil
-    for i, window in pairs(all) do
-        if window:id() == win:id() then
-            local next = (i % #all) + 1
-            nextWindow = all[next]
-            break
-        end
-    end
+    -- grabs the last window, which become the first window when focused
+    local nextWindow = all[#all] 
     nextWindow:focus()
 end
 

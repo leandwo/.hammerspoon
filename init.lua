@@ -31,6 +31,10 @@ hs.hotkey.bind({ "shift", "alt", "ctrl" }, "F", function()
     FocusAndMaximizeApp("Fork")
 end)
 
+hs.hotkey.bind({ "shift", "alt", "ctrl" }, "B", function()
+    FocusAndMaximizeApp("Logos")
+end)
+
 hs.hotkey.bind({ "shift", "alt", "ctrl" }, "A", function()
     FocusAndMaximizeApp("Alacritty")
 end)

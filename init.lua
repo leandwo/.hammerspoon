@@ -52,6 +52,10 @@ hs.hotkey.bind({ "shift", "alt", "ctrl" }, "G", function()
     FocusAndMaximizeApp("Google Chrome")
 end)
 
+hs.hotkey.bind({ "shift", "alt", "ctrl" }, "X", function()
+    FocusAndMaximizeApp("Xcode")
+end)
+
 hs.hotkey.bind({ "shift", "alt", "ctrl" }, "C", function()
     FocusAndMaximizeApp("Visual Studio Code")
 end)

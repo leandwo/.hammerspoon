@@ -60,6 +60,11 @@ hs.hotkey.bind({ "shift", "alt", "ctrl" }, "C", function()
     FocusAndMaximizeApp("Visual Studio Code")
 end)
 
+-- mnemonic: database
 hs.hotkey.bind({ "shift", "alt", "ctrl" }, "D", function()
-    FocusAndMaximizeApp("Dictionary")
+    FocusAndMaximizeApp("Studio 3T")
+end)
+
+hs.hotkey.bind({ "shift", "alt", "ctrl" }, "M", function()
+    FocusAndMaximizeApp("Messages")
 end)

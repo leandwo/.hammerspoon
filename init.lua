@@ -41,4 +41,5 @@ CreateMehShortcut("Spotify", { "S" })
 CreateMehShortcut("Studio 3T", { "D" }) -- D for database
 CreateMehShortcut("Todoist", { "T" })
 CreateMehShortcut("Visual Studio Code", { "V" })
+CreateMehShortcut("Logos", { "L" })
 -- CreateMehShortcut("Xcode", { "X" })
